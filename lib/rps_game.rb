@@ -9,4 +9,11 @@ class RockPaperScissors
     puts "Enter name: "
     @player_name = gets.chomp
   end
+
+  def user_input
+    puts "Choose \'rock\', \'paper\' or \'scissors\':"
+    user_input = gets.chomp
+    user_input
+  end
 end
+
