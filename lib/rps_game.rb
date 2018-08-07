@@ -10,7 +10,3 @@ class RockPaperScissors
     @player_name = gets.chomp
   end
 end
-
-rps = RockPaperScissors.new
-rps.get_name
-p rps.player_name
