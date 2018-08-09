@@ -44,6 +44,3 @@ class RockPaperScissors
     p result(u, c)
   end
 end
-
-rps = RockPaperScissors.new
-rps.game
